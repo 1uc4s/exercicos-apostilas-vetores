@@ -1,0 +1,13 @@
+vet = []
+pos = []
+semdup = []
+for i in range(20):
+    vet.append(int(input("oi:")))
+    if vet[i] > 0:
+        pos.append(vet[i])
+
+semdup = list(set(pos))
+
+print(vet)
+print(pos)
+print(semdup)
