@@ -1,0 +1,10 @@
+valor = []
+valor6 = 0
+for i in range(50):
+    valor.append(int(input("Insira o valor do dado: ")))
+    if valor[i] == 6:
+        valor6 += 1
+
+porcentagem = (100 * valor6) / 50
+
+print(porcentagem,"%")
