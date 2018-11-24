@@ -1,0 +1,10 @@
+a = []
+for i in range(5):
+    a.append(int(input("Insira o valor: ")))
+x = int(input("Numero que deseja encontrar a posição:"))
+
+for i in range(len(a)):
+    if x == a[i]:
+        print("A posição de ",x,"é", i+1)
+    elif x not in a:
+        print(-1)
