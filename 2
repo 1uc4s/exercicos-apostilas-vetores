@@ -1,0 +1,10 @@
+a = []
+b = []
+
+for i in range(10):
+    a.append(int(input("Insira o valor: ")))
+    if a[i] not in b:
+        b.append(a[i])
+
+print(b)
+print(len(b), 'numeros diferentes')
